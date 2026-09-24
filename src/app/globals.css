@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-hotspot-red: #ED2527;
+  --color-hotspot-white: #FFFFFF;
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-arabic: var(--font-arabic);
+}
+
+:root {
+  /* Standard theme: Red background (#ED2527) with White text/elements (#FFFFFF) */
+  --bg-color: #ED2527;
+  --text-color: #FFFFFF;
+}
+
+[data-theme="inverted"] {
+  /* Inverted theme: White background (#FFFFFF) with Red text/elements (#ED2527) */
+  --bg-color: #FFFFFF;
+  --text-color: #ED2527;
+}
+
+/* Global font application based on language direction/script */
+html[lang="ar"],
+html[dir="rtl"],
+body.font-lang-ar {
+  font-family: var(--font-arabic), system-ui, sans-serif;
+}
+
+html[lang="en"],
+html[dir="ltr"],
+body.font-lang-en {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
