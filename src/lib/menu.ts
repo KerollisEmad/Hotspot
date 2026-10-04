@@ -40,14 +40,14 @@ const img = {
   saladsChickenSalad: IMG, // Chicken Salad
   saladsSpecialSalad: IMG, // Special Salad
   // smash-burger
-  smashBurgerChicagoClassicDouble: IMG, // Chicago Classic (Double)
-  smashBurgerChicagoClassicTriple: IMG, // Chicago Classic (Triple)
-  smashBurgerMilwaukeeCheeseDouble: IMG, // Milwaukee Cheese (Double)
-  smashBurgerMilwaukeeCheeseTriple: IMG, // Milwaukee Cheese (Triple)
-  smashBurgerPortlandShroomerDouble: IMG, // Portland Shroomer (Double)
-  smashBurgerPortlandShroomerTriple: IMG, // Portland Shroomer (Triple)
-  smashBurgerNewYorkHotspotDouble: IMG, // New York Hotspot (Double)
-  smashBurgerNewYorkHotspotTriple: IMG, // New York Hotspot (Triple)
+  smashBurgerChicagoClassicDouble: "/images/burger/b1.png", // Chicago Classic (Double)
+  smashBurgerChicagoClassicTriple: "/images/burger/b2.png", // Chicago Classic (Triple)
+  smashBurgerMilwaukeeCheeseDouble: "/images/burger/b3.png", // Milwaukee Cheese (Double)
+  smashBurgerMilwaukeeCheeseTriple: "/images/burger/b4.png", // Milwaukee Cheese (Triple)
+  smashBurgerPortlandShroomerDouble: "/images/burger/b3.png", // Portland Shroomer (Double)
+  smashBurgerPortlandShroomerTriple: "/images/burger/b3.png", // Portland Shroomer (Triple)
+  smashBurgerNewYorkHotspotDouble: "/images/burger/b3.png", // New York Hotspot (Double)
+  smashBurgerNewYorkHotspotTriple: "/images/burger/b3.png", // New York Hotspot (Triple)
   // chicken
   chicken9MegaStrips: IMG, // 9 Mega Strips
   chicken3MegaStrips: IMG, // 3 Mega Strips
