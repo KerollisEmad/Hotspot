@@ -3,6 +3,7 @@
 import { useLanguage } from "@/context/LanguageContext";
 import { MenuCategory } from "@/types/menu";
 import MenuCard from "@/components/menu/MenuCard";
+import { StaggerItem, StaggerList } from "@/components/menu/MenuMotion";
 
 export default function Items({ category }: { category: MenuCategory | null }) {
   const { language, dir } = useLanguage();
@@ -56,11 +57,14 @@ export default function Items({ category }: { category: MenuCategory | null }) {
         </div>
       </div>
 
-      <div dir={dir} className="flex flex-col gap-3">
+      {/* key={category.id} بيعيد تشغيل الحركة كل ما تغيّر القسم */}
+      <StaggerList key={category.id} dir={dir} className="flex flex-col gap-3">
         {category.items.map((item, index) => (
-          <MenuCard key={item.id} item={item} featured={index === 0} />
+          <StaggerItem key={item.id} index={index} featured={index === 0}>
+            <MenuCard item={item} featured={index === 0} />
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerList>
     </section>
   );
 }

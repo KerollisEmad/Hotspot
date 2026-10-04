@@ -92,13 +92,14 @@ export default function MenuCard({
       dir={dir}
       className="flex items-center gap-3 rounded-xl border border-[#ED2527]/15 bg-[#FFFFFF] p-2 shadow-[0_6px_18px_rgba(237,37,39,0.10)] transition-transform duration-200 active:scale-[0.98]"
     >
-      <div className="relative aspect-[3/2] w-[40%] shrink-0 overflow-hidden rounded-md">
+      {/* موبايل: 40% زي ما كانت | من sm وطالع: عرض ثابت عشان الصورة ما تكبرش */}
+      <div className="relative aspect-[3/2] w-[40%] shrink-0 overflow-hidden rounded-md sm:w-[32%] md:w-48 lg:w-52">
         <Image
           src={imageSrc}
           alt={itemName}
           fill
           className="object-cover"
-          sizes="(max-width: 640px) 46vw, 240px"
+          sizes="(max-width: 640px) 40vw, (max-width: 768px) 32vw, 208px"
         />
       </div>
 

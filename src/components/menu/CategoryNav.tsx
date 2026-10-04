@@ -238,7 +238,7 @@ export default function CategoryNav({ activeKey, onSelect }: CategoryNavProps) {
   return (
     <section
       dir={dir}
-      className="w-full overflow-hidden bg-hotspot-white px-3 py-3 sm:px-4"
+      className="w-full overflow-hidden bg-hotspot-white px-3 py-3 sm:px-4 sm:py-4 lg:px-6 lg:py-5"
       data-purpose="category-grid"
     >
       <div className="grid grid-cols-4 gap-2 sm:grid-cols-5 sm:gap-2.5 md:grid-cols-8 lg:gap-3">
