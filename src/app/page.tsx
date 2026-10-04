@@ -241,7 +241,7 @@ export default function WelcomePage() {
             className="relative z-10 flex items-center justify-center"
           >
             <img
-              src="/images/logo.w.r.PNG"
+              src="/images/logo.w.r.png"
               alt="Hotspot"
               className="h-auto  object-contain w-64"
             />
