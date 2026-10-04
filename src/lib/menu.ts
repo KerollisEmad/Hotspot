@@ -16,7 +16,7 @@ import { MenuGroup, ContactInfo } from '@/types/menu';
 
 // Temporary image shared by every item. To give one item its own photo,
 // change ONLY its line below, e.g.  pizzaMargherita: "/images/menu/pizza-1.jpg",
-const IMG = "/images/bg2.png";
+const IMG = "/images/home/bg2.png";
 
 const img = {
   // snacks
