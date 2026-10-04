@@ -44,10 +44,10 @@ const img = {
   smashBurgerChicagoClassicTriple: "/images/burger/b2.png", // Chicago Classic (Triple)
   smashBurgerMilwaukeeCheeseDouble: "/images/burger/b3.png", // Milwaukee Cheese (Double)
   smashBurgerMilwaukeeCheeseTriple: "/images/burger/b4.png", // Milwaukee Cheese (Triple)
-  smashBurgerPortlandShroomerDouble: "/images/burger/b3.png", // Portland Shroomer (Double)
-  smashBurgerPortlandShroomerTriple: "/images/burger/b3.png", // Portland Shroomer (Triple)
-  smashBurgerNewYorkHotspotDouble: "/images/burger/b3.png", // New York Hotspot (Double)
-  smashBurgerNewYorkHotspotTriple: "/images/burger/b3.png", // New York Hotspot (Triple)
+  smashBurgerPortlandShroomerDouble: "/images/burger/b5.png", // Portland Shroomer (Double)
+  smashBurgerPortlandShroomerTriple: "/images/burger/b6.png", // Portland Shroomer (Triple)
+  smashBurgerNewYorkHotspotDouble: "/images/burger/b7.png", // New York Hotspot (Double)
+  smashBurgerNewYorkHotspotTriple: "/images/burger/b8.png", // New York Hotspot (Triple)
   // chicken
   chicken9MegaStrips: IMG, // 9 Mega Strips
   chicken3MegaStrips: IMG, // 3 Mega Strips
