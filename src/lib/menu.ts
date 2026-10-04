@@ -62,14 +62,14 @@ const img = {
   wrapsKofta: IMG, // Kofta
   wrapsBeefSyrianWrap: IMG, // Beef Syrian Wrap
   // pizza
-  pizzaMargherita: IMG, // Margherita
-  pizzaVeggies: IMG, // Veggies
-  pizzaChickenBBQ: IMG, // Chicken BBQ
-  pizzaChickenRanch: IMG, // Chicken Ranch
-  pizzaHotdogPizza: IMG, // Hotdog Pizza
-  pizzaBurgerPizza: IMG, // Burger Pizza
-  pizzaKoftaPizza: IMG, // Kofta Pizza
-  pizzaChickenBuffaloRanch: IMG, // Chicken Buffalo Ranch
+  pizzaMargherita: "/images/pizza/p1.png", // Margherita
+  pizzaVeggies: "/images/pizza/p2.png", // Veggies
+  pizzaChickenBBQ: "/images/pizza/p3.png", // Chicken BBQ
+  pizzaChickenRanch: "/images/pizza/p4.png", // Chicken Ranch
+  pizzaHotdogPizza: "/images/pizza/p5.png", // Hotdog Pizza
+  pizzaBurgerPizza: "/images/pizza/p6.png", // Burger Pizza
+  pizzaKoftaPizza: "/images/pizza/p7.png", // Kofta Pizza
+  pizzaChickenBuffaloRanch: "/images/pizza/p8.png", // Chicken Buffalo Ranch
   // pasta
   pastaPenneChickenAlfredo: IMG, // Penne Chicken Alfredo
   pastaPenneRedSauce: IMG, // Penne Red Sauce
