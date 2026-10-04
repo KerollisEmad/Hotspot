@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const HERO_IMAGES = [
-  "/images/home/bg1.jfif",
-  "/images/home/bg2.jfif",
-  "/images/home/bg3.jfif",
+  "/images/home/bg1.png",
+  "/images/home/bg2.png",
+  "/images/home/bg3.png",
 ];
 
 export default function HeroBanner() {
